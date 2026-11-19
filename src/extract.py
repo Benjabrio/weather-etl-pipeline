@@ -11,7 +11,7 @@ DAILY_VARIABLES = [
 
 
 def extract_weather(latitude, longitude, timezone, forecast_days=7):
-    """Consulta la API de Open-Meteo y devuelve el JSON como diccionario."""
+    """Consulta la API y da como resultado un JSON como diccionario."""
     params = {
         "latitude": latitude,
         "longitude": longitude,
